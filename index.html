@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+  </link>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quattrocento+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            resume: 'rgb(231, 231, 231)',
+          },
+          screens: {
+            desktop: '1024px',
+            mobile: '320px'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <main
+    class="rounded-xl text-sm h-full desktop:w-[800px] mobile:w-full m-auto bg-resume mobile:p-2 desktop:p-16 desktop:mt-8 desktop:mb-24">
+    <header class="flex justify-between items-center border-b-4 border-gray-300 pb-2">
+      <div>
+        <h1 class="mobile:text-3xl text-gray-700 font-bold">Man Nguyen Ngoc</h1>
+        <h2 class="mobile:text-[16.5px] text-gray-700 font-[600]">Software Engineer</h2>
+        <h3 class="mobile:text-sm text-gray-500">Cyberjaya, Malaysia</h3>
+      </div>
+      <div class="bg-gray-700 px-2 py-4">
+        <span class="mobile:text-2xl text-white">M</span>
+        <br />
+        <span class="mobile:text-2xl text-white">N</span>
+        <br />
+        <span class="mobile:text-2xl text-white">N</span>
+      </div>
+    </header>
+    <div class="flex gap-4 mobile:flex-col desktop:flex-row">
+      <div>
+        <div class="flex gap-2 border-b-4 border-gray-300 py-2">
+          <div>
+            <span class="font-bold text-gray-700">Portfolio:</span>
+            <br />
+            <span class="font-bold text-gray-700">Github:</span>
+            <br />
+            <span class="font-bold text-gray-700">Email:</span>
+            <br />
+            <span class="font-bold text-gray-700">Phone:</span>
+          </div>
+          <div>
+            <span>thomas.me</span>
+            <br />
+            <span>thomas.github</span>
+            <br />
+            <span>thomasloen@gmail.com</span>
+            <br />
+            <span>+1(510)abc</span>
+          </div>
+        </div>
+        <div class="py-2 border-b-4 border-gray-300">
+          <h2 class="text-gray-700 font-bold">SUMMARY</h2>
+          <p class="text-gray-700 text-xs">
+            Experienced full-stack web developer with a strong track record of independently addressing complex business
+            requirements and overcoming challenges to deliver polished and user-friendly web solutions.
+          </p>
+        </div>
+        <div class="py-2 border-b-4 border-gray-300">
+          <h2 class="text-gray-700 font-bold mb-2">EDUCATION</h2>
+          <div class="flex flex-col gap-2">
+            <div class="border-b-2 border-gray-300 pb-1">
+              <h3 class="font-bold text-gray-700">California State University East Bay</h3>
+              <span class="text-gray-500 leading-normal mb-2 block">2009 - 2014 | Bachelor of Arts</span>
+              <ul class="list-disc pl-4 text-xs">
+                <li><b>Major:</b> Political Science</li>
+                <li><b>Minor:</b> Economics</li>
+                <li><b>GPA:</b> 3.9</li>
+                <li><b>Skills:</b> Research, Analysis, Critical Thinking, Communication</li>
+              </ul>
+            </div>
+            <div class="pb-1">
+              <h3 class="font-bold text-gray-700">Las Positas Community College</h3>
+              <span class="text-gray-500 leading-normal mb-2 block">2018 - Present | Associate of Science</span>
+              <ul class="list-disc pl-4 text-xs">
+                <li><b>Major:</b> Computer Science</li>
+                <li><b>GPA:</b> 3.9</li>
+                <li><b>Skills:</b> Critical Thinking, Communication</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="py-2 border-b-4 border-gray-300">
+          <h2 class="text-gray-700 font-bold mb-2">SKILLS</h2>
+          <div class="grid grid-cols-4 gap-2">
+            <span class="font-bold text-white bg-gray-700 px-1 py-2 text-center">HTML5</span>
+            <span class="font-bold text-white bg-gray-700 px-1 py-2 text-center">CSS3</span>
+            <span class="font-bold text-white bg-gray-700 px-1 py-2 text-center">JavaScript</span>
+            <span class="font-bold text-white bg-gray-700 px-1 py-2 text-center">TypeScript</span>
+            <span class="font-bold text-white bg-gray-700 px-1 py-2 text-center">Node.js</span>
+            <span class="font-bold text-white bg-gray-700 px-1 py-2 text-center">React.js</span>
+            <span class="font-bold text-white bg-gray-700 px-1 py-2 text-center">NoSQL</span>
+            <span class="font-bold text-white bg-gray-700 px-1 py-2 text-center">CI/CD</span>
+            <span class="font-bold text-white bg-gray-700 px-1 py-2 text-center">Docker</span>
+          </div>
+        </div>
+      </div>
+      <div class="py-2 border-b-4 border-gray-300">
+        <h2 class="text-gray-700 font-bold mb-2">EXPERIENCE</h2>
+        <div class="flex gap-2 flex-col">
+          <div class="border-b-2 border-gray-300 pb-1">
+            <h3 class="font-bold text-gray-700">Full Stack Web Developer</h3>
+            <span class="text-gray-500 leading-normal mb-2 block">Jun 2018 - Present | Freelancer</span>
+            <ul class="pl-4 text-xs">
+              <li>
+                ›
+                Created high-quality, customized web applications from scratch, employing a diverse set of programming
+                languages, including HTML, CSS, JavaScript, PHP, and Python, to fulfill unique client requirements.
+
+              </li>
+              <li>
+                ›
+                Leveraged a range of bleeding edge front-end frameworks like React.js, Nullstack and Vue.js, as well as
+                back-end frameworks such as Node.js and Express, to deliver robust and scalable web solutions.
+              </li>
+            </ul>
+          </div>
+          <div class="pb-1">
+            <h3 class="font-bold text-gray-700">Computer Repair Technician</h3>
+            <span class="text-gray-500 leading-normal mb-2 block">Mar 2018 - Present | Freelancer</span>
+            <ul class="pl-4 text-xs">
+              <li>
+                ›
+                Created high-quality, customized web applications from scratch, employing a diverse set of programming
+                languages, including HTML, CSS, JavaScript, PHP, and Python, to fulfill unique client requirements.
+
+              </li>
+              <li>
+                ›
+                Leveraged a range of bleeding edge front-end frameworks like React.js, Nullstack and Vue.js, as well as
+                back-end frameworks such as Node.js and Express, to deliver robust and scalable web solutions.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>
